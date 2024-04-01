@@ -15,7 +15,7 @@ This is a simple keylogger project implemented in Python. This keylogger capture
 
 Clone the repository to your local machine:
 
-git clone https://github.com/yourusername/keylogger.git
+git clone https://github.com/OxFOIQ/keylogger.git
 
 
 ## Usage
