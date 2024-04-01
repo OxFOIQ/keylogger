@@ -1,7 +1,5 @@
 # keylogger
 
-## Keylogger Project
-
 ## Introduction
 
 This is a simple keylogger project implemented in Python. This keylogger captures keystrokes from the keyboard and send them to email for further analysis.
