@@ -7,7 +7,7 @@ This is a simple keylogger project implemented in Python. This keylogger capture
 ## Features
 - Captures keystrokes from the keyboard.
 
-- Sends keystrokesto email .
+- Sends keystrokes to email .
 
 - Runs in the background without user interference.
 
